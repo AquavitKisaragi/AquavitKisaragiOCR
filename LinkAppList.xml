@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinkAppList>
+	<LinkApp Type="ExistFile" ID="0" Info="WAVファイルから再生" >
+		<!-- 読み上げアプリケーション設定 -->
+		<!-- 情報 -->
+		<Detail>ファイルから音声を再生する場合に使う</Detail>
+		<!-- 音声再生連携ソフト起動ファイル -->
+		<Rec>false</Rec>
+		<Talk>true</Talk>
+		<LinkAppName>VoiceLink_WAVPlayer.exe</LinkAppName>
+		<!-- 後続アプリケーションへの引数 -->
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"sperker":1</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink_WAVPlayer</AppKillName>
+	</LinkApp>
+	<LinkApp Type="NotFile" ID="1" Info="四国めたんさん録音" >
+		<Detail>VOICEVOXの四国めたんさんの声で録音をする</Detail>
+		<Rec>true</Rec>
+		<Talk>false</Talk>
+		<LinkAppName>VoiceLink.exe</LinkAppName>
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"sperker":0</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink</AppKillName>
+	</LinkApp>
+	<LinkApp Type="NotFile" ID="2" Info="四国めたんさん録音同時再生" >
+		<Detail>VOICEVOXの四国めたんさんの声で録音と同時に再生をする</Detail>
+		<Rec>true</Rec>
+		<Talk>true</Talk>
+		<LinkAppName>VoiceLink_FileTalk.exe</LinkAppName>
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"sperker":0</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink</AppKillName>
+	</LinkApp>
+	<LinkApp Type="NotFile" ID="3" Info="ずんだもんさん録音" >
+		<Detail>VOICEVOXのずんだもんさんの声で録音をする</Detail>
+		<Rec>true</Rec>
+		<Talk>false</Talk>
+		<LinkAppName>VoiceLink.exe</LinkAppName>
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"sperker":1</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink</AppKillName>
+	</LinkApp>
+	<LinkApp Type="NotFile" ID="4" Info="ずんだもんさん録音同時再生" >
+		<Detail>VOICEVOXのずんだもんさんの声で録音をする</Detail>
+		<Rec>true</Rec>
+		<Talk>false</Talk>
+		<LinkAppName>VoiceLink_FileTalk.exe</LinkAppName>
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"sperker":1</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink</AppKillName>
+	</LinkApp>
+</LinkAppList>

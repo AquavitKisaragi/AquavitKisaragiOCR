@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BmpTalkInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- 重複チェック数 -->
+  <Deduplication>10</Deduplication>
+  <Language>ja-JP</Language>
+  <!-- 読上間隔 -->
+  <UpdateTime>1000</UpdateTime>
+  <!-- 読取間隔 -->
+  <ScanTime>1000</ScanTime>
+  <!-- 読上必須文字 -->
+  <CharacterExtraction></CharacterExtraction>
+  <MatchRate>0.70</MatchRate>
+  <!-- 最低読上文字数 -->
+  <MinLength>5</MinLength>
+  <whiteList>
+	  <String></String>
+  </whiteList>
+  <Unnecessary>
+	  <String>-</String>
+	  <String>→</String>
+	  <String>←</String>
+	  <String>↑</String>
+	  <String>↓</String>
+	  <String>:</String>
+	  <String>;</String>
+	  <String>：</String>
+   	  <String>；</String>
+	  <String>(</String>
+	  <String>)</String>
+	  <String>[</String>
+	  <String>]</String>
+	  <String>{</String>
+	  <String>}</String>
+  	  <String>「</String>
+  	  <String>」</String>
+  	  <String>（</String>
+  	  <String>〈</String>
+  	  <String>〉</String>
+  	  <String>《</String>
+  	  <String>》</String>
+  	  <String>〔</String>
+  	  <String>〕</String>
+  	  <String>【</String>
+  	  <String>】</String>
+  	  <String>｛</String>
+  	  <String>｝</String>
+  	  <String>ヾ</String>
+   	  <String>卩</String>
+   	  <String>◯</String>
+   	  <String>□</String>
+   	  <String>ö</String>
+   	  <String>-</String>
+   	  <String>屮</String>
+      <String>宀</String>
+	  <String>网</String>
+	  <String>'</String>
+	  <String>’</String>
+	  <String>黼</String>
+  </Unnecessary>
+  <!-- 一行ごとに読む -->
+  <ReadTyepLine>true</ReadTyepLine>
+</BmpTalkInfo>
