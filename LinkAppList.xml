@@ -21,7 +21,7 @@
 		<Detail>VOICEVOXの四国めたんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$","talk":"false"</text>
@@ -34,7 +34,7 @@
 		<Detail>VOICEVOXの四国めたんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>true</Talk>
-		<LinkAppName>VoiceLink_FileTalk.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$","talk":"true"</text>
@@ -47,7 +47,7 @@
 		<Detail>VOICEVOXのずんだもんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
@@ -60,7 +60,7 @@
 		<Detail>VOICEVOXのずんだもんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink_FileTalk.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
