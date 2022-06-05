@@ -11,7 +11,7 @@
   <CharacterExtraction></CharacterExtraction>
   <MatchRate>0.70</MatchRate>
   <!-- 最低読上文字数 -->
-  <MinLength>5</MinLength>
+  <MinLength>2</MinLength>
   <whiteList>
 	  <String></String>
   </whiteList>

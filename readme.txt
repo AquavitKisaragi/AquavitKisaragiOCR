@@ -46,6 +46,7 @@
 
 	オススメな音声再生ソフト
 	https://voicevox.hiroshiba.jp/
+	https://w.atwiki.jp/softalk/
 
 	MouseHook.csを利用させていただいています。
 	https://gist.github.com/tarukosu/e8b869cf700ac1c91901fc065731a3a3

@@ -18,53 +18,79 @@
 		<AppKillName>VoiceLink_WAVPlayer</AppKillName>
 	</LinkApp>
 	<LinkApp Type="NotFile" ID="1" Info="四国めたんさん録音" >
-		<Detail>VOICEVOXの四国めたんさんの声で録音をする</Detail>
+		<Detail>VOICEVOXの四国めたんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
 		<LinkAppName>VoiceLink.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
-				<text>"text":"$dummyText$"</text>
+				<text>"text":"$dummyText$","talk":"false"</text>
 				<otherArgs>"sperker":0</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
 	<LinkApp Type="NotFile" ID="2" Info="四国めたんさん録音同時再生" >
-		<Detail>VOICEVOXの四国めたんさんの声で録音と同時に再生をする</Detail>
+		<Detail>VOICEVOXの四国めたんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>true</Talk>
 		<LinkAppName>VoiceLink_FileTalk.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
-				<text>"text":"$dummyText$"</text>
+				<text>"text":"$dummyText$","talk":"true"</text>
 				<otherArgs>"sperker":0</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
 	<LinkApp Type="NotFile" ID="3" Info="ずんだもんさん録音" >
-		<Detail>VOICEVOXのずんだもんさんの声で録音をする</Detail>
+		<Detail>VOICEVOXのずんだもんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
 		<LinkAppName>VoiceLink.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"sperker":1</otherArgs>
+				<otherArgs>"sperker":1,"talk":"false"</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
 	<LinkApp Type="NotFile" ID="4" Info="ずんだもんさん録音同時再生" >
-		<Detail>VOICEVOXのずんだもんさんの声で録音をする</Detail>
+		<Detail>VOICEVOXのずんだもんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
 		<LinkAppName>VoiceLink_FileTalk.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"sperker":1</otherArgs>
+				<otherArgs>"sperker":1,"talk":"false"</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink</AppKillName>
+	</LinkApp>
+	<LinkApp Type="NotFile" ID="5" Info="AquesTalk10（いわゆるゆっくり）で録音" >
+		<Detail>AquesTalk10（いわゆるゆっくり）で録音を行う（本体のダウンロード及び配置が必要）</Detail>
+		<Rec>true</Rec>
+		<Talk>false</Talk>
+		<LinkAppName>VoiceLink_Aques.exe</LinkAppName>
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"bas":0,"spd":100,"vol":100,"pit":100,"acc":100,"lmd":100,"fsc":100,"talk":"false"</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink</AppKillName>
+	</LinkApp>
+	<LinkApp Type="NotFile" ID="6" Info="AquesTalk10（いわゆるゆっくり）で録音同時再生" >
+		<Detail>AquesTalk10（いわゆるゆっくり）で録音と同時再生する（本体のダウンロード及び配置が必要）</Detail>
+		<Rec>true</Rec>
+		<Talk>false</Talk>
+		<LinkAppName>VoiceLink_Aques.exe</LinkAppName>
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"bas":0,"spd":100,"vol":100,"pit":100,"acc":100,"lmd":100,"fsc":100,"talk":"true"</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
