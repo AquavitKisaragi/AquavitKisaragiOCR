@@ -24,7 +24,7 @@
 		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
-				<text>"text":"$dummyText$","talk":"false"</text>
+				<text>"text":"$dummyText$","talk":false</text>
 				<otherArgs>"sperker":0</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
@@ -37,7 +37,7 @@
 		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
-				<text>"text":"$dummyText$","talk":"true"</text>
+				<text>"text":"$dummyText$","talk":true</text>
 				<otherArgs>"sperker":0</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
@@ -51,7 +51,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"sperker":1,"talk":"false"</otherArgs>
+				<otherArgs>"sperker":1,"talk":false</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
@@ -64,7 +64,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"sperker":1,"talk":"false"</otherArgs>
+				<otherArgs>"sperker":1,"talk":true</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
@@ -77,7 +77,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"bas":0,"spd":100,"vol":100,"pit":100,"acc":100,"lmd":100,"fsc":100,"talk":"false"</otherArgs>
+				<otherArgs>"bas":0,"spd":100,"vol":100,"pit":100,"acc":100,"lmd":100,"fsc":100,"talk":false</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
@@ -90,7 +90,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"bas":0,"spd":100,"vol":100,"pit":100,"acc":100,"lmd":100,"fsc":100,"talk":"true"</otherArgs>
+				<otherArgs>"bas":0,"spd":100,"vol":100,"pit":100,"acc":100,"lmd":100,"fsc":100,"talk":true</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
