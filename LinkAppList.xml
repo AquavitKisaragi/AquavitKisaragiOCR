@@ -82,7 +82,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="6" Info="AquesTalk10 bas0（いわゆるゆっくり）で録音同時再生" >
+	<LinkApp Type="NotFile" ID="6" Info="AquesTalk10 F1（いわゆるゆっくり）で録音同時再生" >
 		<Detail>AquesTalk10 bas0（いわゆるゆっくり）で録音と同時再生する（本体のダウンロード及び配置が必要）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -95,7 +95,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="7" Info="AquesTalk10 bas1（いわゆるゆっくり）で録音同時再生" >
+	<LinkApp Type="NotFile" ID="7" Info="AquesTalk10 F2（いわゆるゆっくり）で録音同時再生" >
 		<Detail>AquesTalk10（いわゆるゆっくり）bas1 で録音と同時再生する（本体のダウンロード及び配置が必要）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -103,20 +103,20 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"bas":1,"spd":100,"vol":100,"pit":100,"acc":100,"lmd":100,"fsc":100,"talk":true</otherArgs>
+				<otherArgs>"bas":1,"spd":100,"vol":100,"pit":77,"acc":150,"lmd":100,"fsc":100,"talk":true</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="8" Info="AquesTalk10 bas2（いわゆるゆっくり）で録音同時再生" >
-		<Detail>AquesTalk10（いわゆるゆっくり）bas2 で録音と同時再生する（本体のダウンロード及び配置が必要）</Detail>
+	<LinkApp Type="NotFile" ID="8" Info="AquesTalk10 M1（いわゆるゆっくり）で録音同時再生" >
+		<Detail>AquesTalk10（いわゆるゆっくり）M1 で録音と同時再生する（本体のダウンロード及び配置が必要）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
 		<LinkAppName>VoiceLink_Aques.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"bas":2,"spd":100,"vol":100,"pit":100,"acc":100,"lmd":100,"fsc":100,"talk":true</otherArgs>
+				<otherArgs>"bas":2,"spd":100,"vol":100,"pit":30,"acc":100,"lmd":100,"fsc":100,"talk":true</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
