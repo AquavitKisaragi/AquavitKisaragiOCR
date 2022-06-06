@@ -37,15 +37,8 @@
 			音声再生ソフトの情報が記載されいています。
 
 インストール方法
-	ファイルを解凍して利用するフォルダに置いてください。
-	下記のファイルをダウンロードして同じフォルダにファイルを直に保存してください。
-	https://github.com/hoger32/VoiceLink
-	
-	VOICEVOXの声を利用するためにはVOICEVOXが起動している必要があります。
-	
-	AquesTalkの声を利用するためには
-	ReadMeVoiceLink_Aques.txtに従って
-	https://www.a-quest.com/index.htmlから該当のファイルをダウンロード及び配置する必要があります。
+  VOICEVOXにも対応したのでそちらがデフォルトになっています。
+
   
 ライセンス情報
 	アクアビット・キサラギ
