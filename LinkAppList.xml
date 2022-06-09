@@ -60,7 +60,7 @@
 		<Detail>VOICEVOXの四国めたんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo\VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$","talk":false</text>
@@ -73,7 +73,7 @@
 		<Detail>VOICEVOXの四国めたんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>true</Talk>
-		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo\VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$","talk":true</text>
@@ -86,7 +86,7 @@
 		<Detail>VOICEVOXのずんだもんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo\VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
@@ -99,7 +99,7 @@
 		<Detail>VOICEVOXのずんだもんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo\VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
@@ -108,11 +108,11 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="8" Info="VOICEVOX テスト四国めたんさん" >
-		<Detail>VOICEVOXの四国めたんさんから音声を録音再生する（テスト用の設定値）（VOICEVOX起動中のみ）</Detail>
+	<LinkApp Type="NotFile" ID="8" Info="VOICEVOX 設定値確認用四国めたんさん" >
+		<Detail>VOICEVOXの四国めたんさんから音声を録音再生する（設定を確認するために作っています。）（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo\VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
