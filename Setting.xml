@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<BmpTalkInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<MainInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!-- 重複チェック数 -->
   <Deduplication>5</Deduplication>
   <Language>ja-JP</Language>
   <!-- 読上間隔 -->
-  <UpdateTime>1</UpdateTime>
+  <UpdateTime>250</UpdateTime>
   <!-- 読取間隔 -->
-  <ScanTime>0300</ScanTime>
+  <ScanTime>250</ScanTime>
   <!-- 読上必須文字 -->
   <CharacterExtraction></CharacterExtraction>
   <MatchRate>0.70</MatchRate>
@@ -59,4 +59,4 @@
   </Unnecessary>
   <!-- 一行ごとに読む -->
   <ReadTyepLine>true</ReadTyepLine>
-</BmpTalkInfo>
+</MainInfo>

@@ -60,7 +60,7 @@
 		<Detail>VOICEVOXの四国めたんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink_VoiceVo\VoiceLink_VoiceVo.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$","talk":false</text>
@@ -73,7 +73,7 @@
 		<Detail>VOICEVOXの四国めたんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>true</Talk>
-		<LinkAppName>VoiceLink_VoiceVo\VoiceLink_VoiceVo.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$","talk":true</text>
@@ -86,7 +86,7 @@
 		<Detail>VOICEVOXのずんだもんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink_VoiceVo\VoiceLink_VoiceVo.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
@@ -99,7 +99,7 @@
 		<Detail>VOICEVOXのずんだもんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink_VoiceVo\VoiceLink_VoiceVo.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
@@ -112,11 +112,11 @@
 		<Detail>VOICEVOXの四国めたんさんから音声を録音再生する（設定を確認するために作っています。）（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
-		<LinkAppName>VoiceLink_VoiceVo\VoiceLink_VoiceVo.exe</LinkAppName>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"talk":true,"speaker":0,"speedScale":0.62,"pitchScale":0,"intonationScale":1,"volumeScale":1,"prePhonemeLength":0.1,"postPhonemeLength":0.1,"outputSamplingRate":24000,"outputStereo":false</otherArgs>
+				<otherArgs>"talk":true,"speaker":0,"speedScale":1.2,"pitchScale":0,"intonationScale":1,"volumeScale":1,"prePhonemeLength":0.1,"postPhonemeLength":0.1,"outputSamplingRate":24000,"outputStereo":false</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
