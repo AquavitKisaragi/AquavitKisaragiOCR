@@ -59,7 +59,7 @@ AquesTalk様　https://www.a-quest.com/index.html
 
 
   その後必要に応じて以下のことを行ってください。
-  ・VOICEVOXで録音再生する場合はVOICEVOXのインストール及び起動であることが条件です。
+  ・VOICEVOXで録音再生する場合はVOICEVOXのインストール及び起動していることが条件です。
   　https://voicevox.hiroshiba.jp/
 
 
