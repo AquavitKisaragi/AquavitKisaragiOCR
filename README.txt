@@ -3,7 +3,7 @@
 
 現在のところ、以下の2種類の音声合成ソフトのみ対応
 VOICEVOX様　https://voicevox.hiroshiba.jp/
-　サーバが起動していることが音声合成の条件です。
+　インストール及びサーバが起動していることが音声合成の条件です。
 AquesTalk様　https://www.a-quest.com/index.html
 　各種DLLを配置していることが音声再生の条件です。
 
