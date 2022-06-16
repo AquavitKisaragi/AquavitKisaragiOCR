@@ -134,4 +134,17 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
+	<LinkApp Type="NotFile" ID="10" Info="録音のみVOICEVOX 設定値確認用四国めたんさん" >
+		<Detail>録音専用</Detail>
+		<Rec>true</Rec>
+		<Talk>false</Talk>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"talk":false,"speaker":4,"speedScale":0.8,"pitchScale":0,"intonationScale":1.1,"volumeScale":0.5,"prePhonemeLength":0.1,"postPhonemeLength":0.1,"outputSamplingRate":24000,"outputStereo":false</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink</AppKillName>
+	</LinkApp>
 </LinkAppList>
