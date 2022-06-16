@@ -38,7 +38,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"bas":1,"spd":70,"vol":100,"pit":00,"acc":150,"lmd":50,"fsc":150,"talk":true</otherArgs>
+				<otherArgs>"bas":1,"spd":70,"vol":100,"pit":20,"acc":150,"lmd":50,"fsc":150,"talk":true</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
@@ -51,7 +51,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"bas":2,"spd":70,"vol":100,"pit":20,"acc":80,"lmd":50,"fsc":150,"talk":true</otherArgs>
+				<otherArgs>"bas":2,"spd":66,"vol":100,"pit":20,"acc":100,"lmd":50,"fsc":150,"talk":true</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
