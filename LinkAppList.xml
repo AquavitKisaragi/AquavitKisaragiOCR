@@ -25,7 +25,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"bas":0,"spd":100,"vol":100,"pit":100,"acc":100,"lmd":100,"fsc":100,"talk":true</otherArgs>
+				<otherArgs>"bas":0,"spd":70,"vol":100,"pit":60,"acc":100,"lmd":50,"fsc":150,"talk":true</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
@@ -38,7 +38,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"bas":1,"spd":100,"vol":100,"pit":77,"acc":150,"lmd":100,"fsc":100,"talk":true</otherArgs>
+				<otherArgs>"bas":1,"spd":70,"vol":100,"pit":00,"acc":150,"lmd":50,"fsc":150,"talk":true</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
@@ -51,7 +51,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"bas":2,"spd":100,"vol":100,"pit":30,"acc":100,"lmd":100,"fsc":100,"talk":true</otherArgs>
+				<otherArgs>"bas":2,"spd":70,"vol":100,"pit":20,"acc":80,"lmd":50,"fsc":150,"talk":true</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
@@ -64,7 +64,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$","talk":false</text>
-				<otherArgs>"speaker":0</otherArgs>
+				<otherArgs>"talk":false,"speaker":0</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
@@ -77,7 +77,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$","talk":true</text>
-				<otherArgs>"speaker":0</otherArgs>
+				<otherArgs>"talk":true,"speaker":0</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
@@ -90,7 +90,7 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"speaker":1,"talk":false</otherArgs>
+				<otherArgs>"talk":false,"speaker":1</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
@@ -103,20 +103,33 @@
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"speaker":1,"talk":true</otherArgs>
+				<otherArgs>"talk":true,"speaker":1</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
 	<LinkApp Type="NotFile" ID="8" Info="VOICEVOX 設定値確認用四国めたんさん" >
-		<Detail>VOICEVOXの四国めたんさんから音声を録音再生する（設定を確認するために作っています。）（VOICEVOX起動中のみ）</Detail>
+		<Detail>VOICEVOXの四国めたんさん（セクシー）から音声を録音再生する（設定を確認するために作っています。）（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
 		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
 		<Arguments>
 			<LinkAppArgs>
 				<text>"text":"$dummyText$"</text>
-				<otherArgs>"talk":true,"speaker":0,"speedScale":1.2,"pitchScale":0,"intonationScale":1,"volumeScale":1,"prePhonemeLength":0.1,"postPhonemeLength":0.1,"outputSamplingRate":24000,"outputStereo":false</otherArgs>
+				<otherArgs>"talk":true,"speaker":4,"speedScale":0.8,"pitchScale":0,"intonationScale":1.1,"volumeScale":0.5,"prePhonemeLength":0.1,"postPhonemeLength":0.1,"outputSamplingRate":24000,"outputStereo":false</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink</AppKillName>
+	</LinkApp>
+	<LinkApp Type="NotFile" ID="9" Info="VOICEVOX 設定値確認用九州そらさん" >
+		<Detail>VOICEVOXの四国九州そら（ささやき）さんから音声を録音再生する（設定を確認するために作っています。）（VOICEVOX起動中のみ）</Detail>
+		<Rec>true</Rec>
+		<Talk>false</Talk>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"talk":true,"speaker":19,"speedScale":1.2,"pitchScale":0,"intonationScale":2,"volumeScale":2,"prePhonemeLength":0.1,"postPhonemeLength":0.1,"outputSamplingRate":24000,"outputStereo":false</otherArgs>
 			</LinkAppArgs>
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
