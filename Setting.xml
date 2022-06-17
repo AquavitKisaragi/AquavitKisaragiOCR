@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MainInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!-- 重複チェック数 -->
-  <Deduplication>5</Deduplication>
+  <Deduplication>20</Deduplication>
   <Language>ja-JP</Language>
   <!-- 読上間隔 -->
   <UpdateTime>250</UpdateTime>
