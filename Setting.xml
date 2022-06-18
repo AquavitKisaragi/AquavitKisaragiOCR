@@ -9,7 +9,7 @@
   <ScanTime>250</ScanTime>
   <!-- 読上必須文字 -->
   <CharacterExtraction></CharacterExtraction>
-  <MatchRate>0.70</MatchRate>
+  <MatchRate>0.90</MatchRate>
   <!-- 最低読上文字数 -->
   <MinLength>2</MinLength>
   <whiteList>

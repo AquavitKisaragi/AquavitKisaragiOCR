@@ -56,7 +56,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="4" Info="VOICEVOX 四国めたん(ノーマル)録音再生" >
+	<LinkApp Type="NotFile" ID="100" Info="VOICEVOX 四国めたん(ノーマル)録音再生" >
 		<Detail>VOICEVOXの四国めたんさんの声で録音をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -69,7 +69,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="5" Info="VOICEVOX 四国めたん(あまあま)録音再生" >
+	<LinkApp Type="NotFile" ID="101" Info="VOICEVOX 四国めたん(あまあま)録音再生" >
 		<Detail>VOICEVOXの四国めたんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>true</Talk>
@@ -82,7 +82,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="6" Info="VOICEVOX 四国めたん(ツンツン)録音再生" >
+	<LinkApp Type="NotFile" ID="102" Info="VOICEVOX 四国めたん(ツンツン)録音再生" >
 		<Detail>VOICEVOXの四国めたんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>true</Talk>
@@ -95,7 +95,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="7" Info="VOICEVOX 四国めたん(セクシー)録音再生" >
+	<LinkApp Type="NotFile" ID="103" Info="VOICEVOX 四国めたん(セクシー)録音再生" >
 		<Detail>VOICEVOXの四国めたんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>true</Talk>
@@ -108,7 +108,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="8" Info="VOICEVOX ずんだもん(ノーマル）録音再生" >
+	<LinkApp Type="NotFile" ID="111" Info="VOICEVOX ずんだもん(ノーマル）録音再生" >
 		<Detail>VOICEVOXのずんだもんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -121,7 +121,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="9" Info="VOICEVOX ずんだもん(あまあま）録音再生" >
+	<LinkApp Type="NotFile" ID="112" Info="VOICEVOX ずんだもん(あまあま）録音再生" >
 		<Detail>VOICEVOXのずんだもんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -134,7 +134,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="10" Info="VOICEVOX ずんだもん(ツンツン）録音再生" >
+	<LinkApp Type="NotFile" ID="113" Info="VOICEVOX ずんだもん(ツンツン）録音再生" >
 		<Detail>VOICEVOXのずんだもんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -147,7 +147,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="11" Info="VOICEVOX ずんだもん(セクシー）録音再生" >
+	<LinkApp Type="NotFile" ID="114" Info="VOICEVOX ずんだもん(セクシー）録音再生" >
 		<Detail>VOICEVOXのずんだもんさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -160,7 +160,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="12" Info="VOICEVOX 春日部つむぎ(ノーマル）録音再生" >
+	<LinkApp Type="NotFile" ID="121" Info="VOICEVOX 春日部つむぎ(ノーマル）録音再生" >
 		<Detail>VOICEVOXの春日部つむぎさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -173,7 +173,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="13" Info="VOICEVOX 雨晴はう(ノーマル）録音再生" >
+	<LinkApp Type="NotFile" ID="131" Info="VOICEVOX 雨晴はう(ノーマル）録音再生" >
 		<Detail>VOICEVOXの雨晴はうさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -186,8 +186,21 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="14" Info="VOICEVOX 波音リツ(ノーマル）録音再生" >
+	<LinkApp Type="NotFile" ID="141" Info="VOICEVOX 波音リツ(ノーマル）録音再生" >
 		<Detail>VOICEVOXの波音リツさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
+		<Rec>true</Rec>
+		<Talk>false</Talk>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"talk":true,"speaker":9</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink</AppKillName>
+	</LinkApp>
+	<LinkApp Type="NotFile" ID="151" Info="VOICEVOX 玄野武宏(ノーマル）録音再生" >
+		<Detail>VOICEVOXの玄野武宏さんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
 		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
@@ -199,7 +212,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="15" Info="VOICEVOX 白上虎太郎(ノーマル）録音再生" >
+	<LinkApp Type="NotFile" ID="161" Info="VOICEVOX 白上虎太郎(ノーマル）録音再生" >
 		<Detail>VOICEVOXの白上虎太郎さんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -212,7 +225,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="16" Info="VOICEVOX 青山龍星(ノーマル）録音再生" >
+	<LinkApp Type="NotFile" ID="171" Info="VOICEVOX 青山龍星(ノーマル）録音再生" >
 		<Detail>VOICEVOXの青山龍星さんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -225,7 +238,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="17" Info="VOICEVOX 冥鳴ひまり(ノーマル）録音再生" >
+	<LinkApp Type="NotFile" ID="181" Info="VOICEVOX 冥鳴ひまり(ノーマル）録音再生" >
 		<Detail>VOICEVOXの冥鳴ひまりさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -238,7 +251,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="18" Info="VOICEVOX 九州そら(ノーマル）録音再生" >
+	<LinkApp Type="NotFile" ID="191" Info="VOICEVOX 九州そら(ノーマル）録音再生" >
 		<Detail>VOICEVOXの九州そらさん(ノーマル）の声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -251,7 +264,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="19" Info="VOICEVOX 九州そら(あまあま）録音再生" >
+	<LinkApp Type="NotFile" ID="192" Info="VOICEVOX 九州そら(あまあま）録音再生" >
 		<Detail>VOICEVOXの九州そらさん(あまあま）の声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -264,7 +277,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="20" Info="VOICEVOX 九州そら(ツンツン）録音再生" >
+	<LinkApp Type="NotFile" ID="193" Info="VOICEVOX 九州そら(ツンツン）録音再生" >
 		<Detail>VOICEVOXの九州そらさん(ツンツン）の声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -277,7 +290,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="21" Info="VOICEVOX 九州そら(セクシー）録音再生" >
+	<LinkApp Type="NotFile" ID="194" Info="VOICEVOX 九州そら(セクシー）録音再生" >
 		<Detail>VOICEVOXの九州そらさん(セクシー）の声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -290,7 +303,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="22" Info="VOICEVOX 九州そら(ささやき）録音再生" >
+	<LinkApp Type="NotFile" ID="195" Info="VOICEVOX 九州そら(ささやき）録音再生" >
 		<Detail>VOICEVOXの九州そらさん(ささやき）の声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -303,7 +316,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="23" Info="VOICEVOX モチノ・キョウコ(ノーマル）録音再生" >
+	<LinkApp Type="NotFile" ID="201" Info="VOICEVOX モチノ・キョウコ(ノーマル）録音再生" >
 		<Detail>VOICEVOXのモチノ・キョウコさん(ノーマル）の声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -316,7 +329,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="98" Info="VOICEVOX 設定値確認用四国めたんさん" >
+	<LinkApp Type="NotFile" ID="901" Info="VOICEVOX 設定値確認用四国めたんさん" >
 		<Detail>VOICEVOXの四国めたんさん（セクシー）から音声を録音再生する（設定を確認するために作っています。）（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -329,7 +342,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="99" Info="VOICEVOX 設定値確認用九州そらさん" >
+	<LinkApp Type="NotFile" ID="902" Info="VOICEVOX 設定値確認用九州そらさん" >
 		<Detail>VOICEVOXの四国九州そら（ささやき）さんから音声を録音再生する（設定を確認するために作っています。）（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -342,7 +355,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="100" Info="録音のみVOICEVOX 設定値確認用四国めたんさん" >
+	<LinkApp Type="NotFile" ID="903" Info="録音のみVOICEVOX 設定値確認用四国めたんさん" >
 		<Detail>録音専用</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -355,7 +368,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-	<LinkApp Type="NotFile" ID="101" Info="VOICEVOX 青山龍星(ノーマル）録音再生" >
+	<LinkApp Type="NotFile" ID="905" Info="VOICEVOX 青山龍星(ノーマル）録音再生" >
 		<Detail>個人用動画編集用 VOICEVOXの青山龍星さんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -368,7 +381,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-		<LinkApp Type="NotFile" ID="102" Info="VOICEVOX 雨晴はう(ノーマル）録音再生" >
+		<LinkApp Type="NotFile" ID="906" Info="VOICEVOX 雨晴はう(ノーマル）録音再生" >
 		<Detail>個人動画編集用 VOICEVOXの雨晴はうさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
@@ -381,5 +394,17 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-
+	<LinkApp Type="NotFile" ID="907" Info="録音のみVOICEVOX 設定値確認用四国めたんさん" >
+		<Detail>録音専用</Detail>
+		<Rec>true</Rec>
+		<Talk>true</Talk>
+		<LinkAppName>VoiceLink_VoiceVo.exe</LinkAppName>
+		<Arguments>
+			<LinkAppArgs>
+				<text>"text":"$dummyText$"</text>
+				<otherArgs>"talk":true,"speaker":4,"speedScale":1.0,"pitchScale":-0.1,"intonationScale":0.8,"volumeScale":1,"prePhonemeLength":0.1,"postPhonemeLength":0.1,"outputSamplingRate":24000,"outputStereo":false</otherArgs>
+			</LinkAppArgs>
+		</Arguments>
+		<AppKillName>VoiceLink</AppKillName>
+	</LinkApp>
 </LinkAppList>
