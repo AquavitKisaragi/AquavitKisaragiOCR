@@ -368,7 +368,7 @@
 		</Arguments>
 		<AppKillName>VoiceLink</AppKillName>
 	</LinkApp>
-		<LinkApp Type="NotFile" ID="13" Info="VOICEVOX 雨晴はう(ノーマル）録音再生" >
+		<LinkApp Type="NotFile" ID="102" Info="VOICEVOX 雨晴はう(ノーマル）録音再生" >
 		<Detail>個人動画編集用 VOICEVOXの雨晴はうさんの声で録音と同時に再生をする（VOICEVOX起動中のみ）</Detail>
 		<Rec>true</Rec>
 		<Talk>false</Talk>
